@@ -96,6 +96,7 @@ No bidding or rate negotiation yet
 
 Focus: fast MVP that showcases live shared capacity
 
-
+📎 UI Reference:
+See [GANTT_UI_REFERENCE.png](./examples/GANTT_UI_REFERENCE.png) for the current prototype of the Gantt view created in Lovable.
 
 
