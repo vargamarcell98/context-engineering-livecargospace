@@ -1,15 +1,34 @@
-## FEATURE:
+# Project Name: FreightSync Core
 
-[Insert your feature here]
+This project is a freight software tool to help transport carriers and freight forwarders optimize cargo space usage and increase visibility across the network.
 
-## EXAMPLES:
+## Core Concept
 
-[Provide and explain examples that you have in the `examples/` folder]
+We want to build a basic but powerful SaaS system.
 
-## DOCUMENTATION:
+### Carrier Role
 
-[List out any documentation (web pages, sources for an MCP server like Crawl4AI RAG, etc.) that will need to be referenced during development]
+- Carriers can manually enter planned transports (pickup/drop-off time & location, capacity used, etc.).
+- Vehicles can be registered with detailed cargo space (length/weight).
+- Real-time vehicle location is retrieved via telematics API integration.
+- Gantt chart and map view show live cargo space status.
+- Gantt blocks can be edited (drag & drop or click).
+- Carriers can register clients and assign them to transports.
 
-## OTHER CONSIDERATIONS:
+### Freight Forwarder / Supplier Role
 
-[Any other considerations or specific requirements - great place to include gotchas that you see AI coding assistants miss with your projects a lot]
+- FFs and suppliers can see shared cargo space from carriers they work with.
+- No CRM features for this role.
+- View is read-only: just Gantt chart and map of available space.
+
+## Tech Stack
+
+- Frontend: Next.js
+- Backend: Supabase (PostgreSQL, Auth, Storage, Functions)
+- Target environment: mobile-first responsive UI
+
+## Objective
+
+The MVP is focused only on cargo space visibility and manual transport entry. No bidding, no AI, no pairing algorithm yet.
+
+The business model will be a SaaS subscription starting at 100–150 EUR/month.
