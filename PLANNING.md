@@ -52,6 +52,12 @@ Pickup & delivery time
 
 Reserved cargo length and weight
 
+🗺️ Gantt Chart Visual Cues:
+
+- Each transport block in the Gantt chart should display the **pickup and delivery locations** as **[country code][ZIP code]** format, for example: `DE10115 → PL44320 → HU6720`.
+- These labels must be shown directly at the **start of each block**, on the timeline under each registered vehicle (by license plate).
+- In the **supplier / freight forwarder view**, only this minimal location info is visible (country + ZIP + time), while full city, street, company, contact data remains hidden.
+
 
 They do not see company name, contact, or street address
 
@@ -96,7 +102,6 @@ No bidding or rate negotiation yet
 
 Focus: fast MVP that showcases live shared capacity
 
-📎 UI Reference:
-See [GANTT_UI_REFERENCE.png](./examples/GANTT_UI_REFERENCE.png) for the current prototype of the Gantt view created in Lovable.
+
 
 
